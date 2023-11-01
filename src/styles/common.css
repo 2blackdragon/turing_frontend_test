@@ -1,0 +1,36 @@
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --green: #264F36;
+    --grey: #F5F5F5;
+    --grey_text: #626262;
+
+}
+
+body {
+    font-family: 'Kameron', sans-serif;
+    background-color: var(--grey);
+}
+
+@media (max-width: 500px){
+    body h1 {
+        padding: 10px 40px 0px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 501px){
+    body h1 {
+        padding: 10px 40px 0px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+
+.container{
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0 30px;
+}

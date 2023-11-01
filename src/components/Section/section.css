@@ -1,0 +1,29 @@
+.section {
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.title2{
+    font-size: 20px;
+}
+
+@media (max-width: 500px){
+    .section_cards{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding-top: 30px;
+    }
+}
+
+.section_cards{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    padding-top: 30px;
+}
+
+.container{
+    padding-left: 40px;
+}
