@@ -24,7 +24,7 @@ footer {
 
 @media (min-width: 501px){
     .mobile img{
-        width: 40%;
+        width: 25%;
     }
 }
 
@@ -44,7 +44,7 @@ footer {
 
 @media (min-width: 501px){
     .social_media img {
-        width: 15%;
+        width: 10%;
     }
 }
 
