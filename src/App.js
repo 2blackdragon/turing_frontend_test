@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
 import Section from "./components/Section/Section";
+import Footer from "./components/footer/Footer";
 
 function App() {
 
@@ -88,6 +89,7 @@ function App() {
                         <Section data={line.data} title={line.title}/>
                     )
                   })}
+      <Footer />
     </div>
   );
 }
